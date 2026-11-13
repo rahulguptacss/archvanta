@@ -1,0 +1,620 @@
+{
+  "common": {
+    "Header": {
+      "logo": "/logo/logo.webp",
+      "logo_text": "ArchVanta",
+      "logo_subtext": "ARCHITECTURE • CONSTRUCTION • DESIGN",
+      "links": [
+        {
+          "name": "Home",
+          "href": "#home"
+        },
+        {
+          "name": "About Us",
+          "href": "#about"
+        },
+        {
+          "name": "Our Services",
+          "href": "#contact"
+        },
+        {
+          "name": "Projects",
+          "href": "#contact"
+        },
+        {
+          "name": "Gallery",
+          "href": "#gallery"
+        },
+        {
+          "name": "Reviews",
+          "href": "#testimonials"
+        },
+        {
+          "name": "FAQ",
+          "href": "#faq"
+        },
+        {
+          "name": "Contact Us",
+          "href": "#contact"
+        }
+      ],
+      "phone_icon_label": "Call ArchVanta",
+      "phone_text": "+100000000000",
+      "phone_href": "tel:+100000000000",
+      "menu_aria_label": "Open navigation menu",
+      "close_aria_label": "Close navigation menu",
+      "drag_hint": "← Drag right to dismiss"
+    },
+    "Footer": {
+      "logo": "/logo/logo.webp",
+      "logo_text": "ArchVanta",
+      "logo_subtext": "CONSTRUCTION & ARCHITECTURE",
+      "tagline": "ArchVanta is an industry-leading construction and architectural engineering firm committed to building resilient landmarks, modern commercial hubs, and bespoke residential sanctuaries with safety and uncompromised precision.",
+      "quick_links_title": "QUICK LINKS",
+      "quick_links": [
+        {
+          "name": "Home",
+          "href": "#home"
+        },
+        {
+          "name": "About Us",
+          "href": "#about"
+        },
+        {
+          "name": "Our Services",
+          "href": "#contact"
+        },
+        {
+          "name": "Featured Projects",
+          "href": "#contact"
+        },
+        {
+          "name": "Project Gallery",
+          "href": "#gallery"
+        },
+        {
+          "name": "Client Reviews",
+          "href": "#testimonials"
+        },
+        {
+          "name": "FAQ",
+          "href": "#faq"
+        },
+        {
+          "name": "Contact Us",
+          "href": "#contact"
+        }
+      ],
+      "contact_title": "WE ARE AT YOUR SERVICE",
+      "address": "123 Education Lane, New York, NY 10001",
+      "phone": "+100000000000",
+      "phone_href": "tel:+100000000000",
+      "email": "info@xyz.com",
+      "email_href": "mailto:info@xyz.com",
+      "hours": {
+        "days": "Mon - Sat",
+        "time": "08:00 AM - 07:00 PM"
+      },
+      "copyright": "© 2026 ArchVanta. All Rights Reserved."
+    },
+    "BackToTop": {
+      "aria_label": "Scroll back to top"
+    }
+  },
+  "categories": {
+    "ConstructionArchitecture": {
+      "templateComponents": {
+        "template-1": {
+          "pages": {
+            "home": {
+              "title": "ArchVanta",
+              "pageName": "home",
+              "metadata": {
+                "title": "ArchVanta | Premier Construction & Architecture Firm",
+                "description": "Building tomorrow's spaces today. ArchVanta delivers world-class commercial, residential, and industrial construction with cutting-edge engineering and sustainable design."
+              },
+              "components": [
+                {
+                  "key": "Hero",
+                  "component": "Hero"
+                },
+                {
+                  "key": "About",
+                  "component": "About"
+                },
+                {
+                  "key": "Services",
+                  "component": "Services"
+                },
+                {
+                  "key": "Counters",
+                  "component": "Counters"
+                },
+                {
+                  "key": "Projects",
+                  "component": "Projects"
+                },
+                {
+                  "key": "Gallery",
+                  "component": "Gallery"
+                },
+                {
+                  "key": "Cta",
+                  "component": "Cta"
+                },
+                {
+                  "key": "Testimonials",
+                  "component": "Testimonials"
+                },
+                {
+                  "key": "Faq",
+                  "component": "Faq"
+                },
+                {
+                  "key": "Contact",
+                  "component": "Contact"
+                }
+              ]
+            }
+          },
+          "sections": {
+            "hero": {
+              "prev_slide_aria": "Previous Hero slide",
+              "next_slide_aria": "Next Hero slide",
+              "slides": [
+                {
+                  "id": "slide-1",
+                  "eyebrow": "CONSTRUCTION & ARCHITECTURE",
+                  "headline_first": "Building Tomorrow's",
+                  "headline_highlight": "Spaces Today",
+                  "description": "Delivering modern, functional, and sustainable construction and architectural solutions for residential, commercial, and industrial projects.",
+                  "background_image": "/images/hero/hero-villa.webp",
+                  "background_alt": "Contemporary luxury residential architectural villa with illuminated glass facade, cantilevered balconies, and infinity pool at dusk",
+                  "badges": [
+                    {
+                      "id": "badge-1",
+                      "title_line1": "Expert",
+                      "title_line2": "Team",
+                      "icon": "HardHat"
+                    },
+                    {
+                      "id": "badge-2",
+                      "title_line1": "Quality",
+                      "title_line2": "Construction",
+                      "icon": "Award"
+                    },
+                    {
+                      "id": "badge-3",
+                      "title_line1": "Modern",
+                      "title_line2": "Designs",
+                      "icon": "Building2"
+                    }
+                  ]
+                },
+                {
+                  "id": "slide-2",
+                  "eyebrow": "ARCHITECTURAL MASTERY",
+                  "headline_first": "Engineering Iconic",
+                  "headline_highlight": "Landmarks",
+                  "description": "Specializing in high-performance corporate towers, advanced engineering, and enduring urban developments.",
+                  "background_image": "/images/hero/hero-landmark.webp",
+                  "background_alt": "Iconic architectural landmark skyscraper tower and illuminated suspension bridge along waterfront at golden dusk",
+                  "badges": [
+                    {
+                      "id": "badge-1",
+                      "title_line1": "Expert",
+                      "title_line2": "Team",
+                      "icon": "HardHat"
+                    },
+                    {
+                      "id": "badge-2",
+                      "title_line1": "Quality",
+                      "title_line2": "Construction",
+                      "icon": "Award"
+                    },
+                    {
+                      "id": "badge-3",
+                      "title_line1": "Modern",
+                      "title_line2": "Designs",
+                      "icon": "Building2"
+                    }
+                  ]
+                },
+                {
+                  "id": "slide-3",
+                  "eyebrow": "INNOVATIVE INFRASTRUCTURE",
+                  "headline_first": "Pioneering Master",
+                  "headline_highlight": "Developments",
+                  "description": "Turnkey contracting, master planning, and sustainable industrial solutions crafted with precision and safety.",
+                  "background_image": "/images/services/building-planning.webp",
+                  "background_alt": "Skyline high-rise construction with tower cranes during golden sunset",
+                  "badges": [
+                    {
+                      "id": "badge-1",
+                      "title_line1": "Expert",
+                      "title_line2": "Team",
+                      "icon": "HardHat"
+                    },
+                    {
+                      "id": "badge-2",
+                      "title_line1": "Quality",
+                      "title_line2": "Construction",
+                      "icon": "Award"
+                    },
+                    {
+                      "id": "badge-3",
+                      "title_line1": "Modern",
+                      "title_line2": "Designs",
+                      "icon": "Building2"
+                    }
+                  ]
+                }
+              ]
+            },
+            "about": {
+              "eyebrow": "ABOUT US",
+              "heading_prefix": "Who We",
+              "heading_highlight": "Are",
+              "description_p1": "ArchVanta is a trusted construction and architecture company dedicated to creating modern, functional, and sustainable spaces. With a strong focus on quality, safety, and innovation, we deliver end-to-end building solutions for residential, commercial, and industrial projects.",
+              "description_p2": "Our experienced team combines creative design with expert construction to turn ideas into lasting structures that add value and inspire better living and working environments.",
+              "image": "/images/about/about-engineers.webp",
+              "image_alt": "Lead civil engineers and architects reviewing blueprints on active construction site",
+              "features": [
+                {
+                  "id": "feat-1",
+                  "title_line1": "Quality",
+                  "title_line2": "Driven",
+                  "icon": "Award"
+                },
+                {
+                  "id": "feat-2",
+                  "title_line1": "Experienced",
+                  "title_line2": "Team",
+                  "icon": "Users"
+                },
+                {
+                  "id": "feat-3",
+                  "title_line1": "End-to-End",
+                  "title_line2": "Solutions",
+                  "icon": "Building2"
+                }
+              ]
+            },
+            "services": {
+              "eyebrow": "OUR SERVICES",
+              "heading_prefix": "Full Service",
+              "heading_highlight": "Construction Company",
+              "subtitle": "We offer a complete range of construction and architecture services, delivering quality, innovation, and reliable solutions for every project.",
+              "items": [
+                {
+                  "id": "srv-1",
+                  "title": "Building Planning",
+                  "title_line1": "Building",
+                  "title_line2": "Planning",
+                  "image": "/images/services/building-planning.webp",
+                  "image_alt": "City skyline and high-rise building planning",
+                  "icon": "Building2",
+                  "href": "#contact"
+                },
+                {
+                  "id": "srv-2",
+                  "title": "House Renovation",
+                  "title_line1": "House",
+                  "title_line2": "Renovation",
+                  "image": "/images/services/house-renovation.webp",
+                  "image_alt": "Concrete frame and modern house renovation",
+                  "icon": "Home",
+                  "href": "#contact"
+                },
+                {
+                  "id": "srv-3",
+                  "title": "Architecture & Building",
+                  "title_line1": "Architecture &",
+                  "title_line2": "Building",
+                  "image": "/images/services/architectural-design.webp",
+                  "image_alt": "Modern architectural canopy and timber building design",
+                  "icon": "Compass",
+                  "href": "#contact"
+                },
+                {
+                  "id": "srv-4",
+                  "title": "Interior Design",
+                  "title_line1": "Interior",
+                  "title_line2": "Design",
+                  "image": "/images/services/interior-design.webp",
+                  "image_alt": "Contemporary luxury interior living and kitchen space",
+                  "icon": "Sofa",
+                  "href": "#contact"
+                },
+                {
+                  "id": "srv-5",
+                  "title": "Building Engineering",
+                  "title_line1": "Building",
+                  "title_line2": "Engineering",
+                  "image": "/images/services/building-engineering.webp",
+                  "image_alt": "Modern corporate glass and steel office building engineering",
+                  "icon": "Layers",
+                  "href": "#contact"
+                },
+                {
+                  "id": "srv-6",
+                  "title": "Construction Consultant",
+                  "title_line1": "Construction",
+                  "title_line2": "Consultant",
+                  "image": "/images/services/construction-management.webp",
+                  "image_alt": "Lead construction supervisor reviewing building progress on site",
+                  "icon": "HardHat",
+                  "href": "#contact"
+                },
+                {
+                  "id": "srv-7",
+                  "title": "All Services",
+                  "title_line1": "All",
+                  "title_line2": "Services",
+                  "image": "/images/services/all-services.webp",
+                  "image_alt": "Parametric wooden architectural structure representing all services",
+                  "icon": "LayoutGrid",
+                  "href": "#contact"
+                }
+              ]
+            },
+            "counters": {
+              "eyebrow": "OUR ACHIEVEMENTS",
+              "heading_prefix": "Building Trust",
+              "heading_highlight": "Through Numbers",
+              "subtitle": "A track record of successful projects, satisfied clients, and a dedicated team that drives our continued growth.",
+              "background_accent": "/images/counters/counters-building.webp",
+              "items": [
+                {
+                  "id": "cnt-1",
+                  "value": "346+",
+                  "label": "PROJECTS COMPLETED",
+                  "icon": "Building2"
+                },
+                {
+                  "id": "cnt-2",
+                  "value": "932+",
+                  "label": "HAPPY CLIENTS",
+                  "icon": "Users"
+                },
+                {
+                  "id": "cnt-3",
+                  "value": "325+",
+                  "label": "QUALIFIED STAFF",
+                  "icon": "GraduationCap"
+                },
+                {
+                  "id": "cnt-4",
+                  "value": "4,321+",
+                  "label": "MACHINERIES",
+                  "icon": "TowerCrane"
+                }
+              ]
+            },
+            "projects": {
+              "eyebrow": "OUR PROJECTS",
+              "heading_prefix": "Featured",
+              "heading_highlight": "Works",
+              "description": "Showcasing our recent construction and architectural projects that reflect our quality, innovation, and commitment to excellence.",
+              "featured": {
+                "title": "Modern Office Building",
+                "title_line1": "Modern",
+                "title_line2": "Office Building",
+                "category": "COMMERCIAL",
+                "icon": "Building2",
+                "image": "/images/projects/featured-office-hd.webp",
+                "image_alt": "Contemporary 4-story commercial glass office building with tree-lined sidewalk at sunset",
+                "href": "#contact"
+              },
+              "items": [
+                {
+                  "id": "proj-1",
+                  "category": "RESIDENTIAL",
+                  "title": "Luxury Villa Construction",
+                  "title_line1": "Luxury Villa",
+                  "title_line2": "Construction",
+                  "icon": "Home",
+                  "image": "/images/projects/project-luxury-villa.webp",
+                  "image_alt": "Private modern luxury villa with integrated landscaped lighting",
+                  "href": "#contact"
+                },
+                {
+                  "id": "proj-2",
+                  "category": "INDUSTRIAL",
+                  "title": "Factory & Warehouse",
+                  "title_line1": "Factory &",
+                  "title_line2": "Warehouse",
+                  "icon": "Factory",
+                  "image": "/images/projects/project-warehouse.webp",
+                  "image_alt": "Industrial logistics factory with automated loading docks",
+                  "href": "#contact"
+                },
+                {
+                  "id": "proj-3",
+                  "category": "RESIDENTIAL",
+                  "title": "Apartment Complex",
+                  "title_line1": "Apartment",
+                  "title_line2": "Complex",
+                  "icon": "Building",
+                  "image": "/images/projects/project-apartment.webp",
+                  "image_alt": "Urban residential condominium tower with modern balconies",
+                  "href": "#contact"
+                },
+                {
+                  "id": "proj-4",
+                  "category": "INSTITUTIONAL",
+                  "title": "School Building",
+                  "title_line1": "School",
+                  "title_line2": "Building",
+                  "icon": "GraduationCap",
+                  "image": "/images/projects/project-school.webp",
+                  "image_alt": "Contemporary educational institute with open courtyards",
+                  "href": "#contact"
+                },
+                {
+                  "id": "proj-5",
+                  "category": "COMMERCIAL",
+                  "title": "Retail Showroom",
+                  "title_line1": "Retail",
+                  "title_line2": "Showroom",
+                  "icon": "ShoppingBag",
+                  "image": "/images/projects/project-retail.webp",
+                  "image_alt": "High-end glass facade automobile and luxury retail showroom",
+                  "href": "#contact"
+                }
+              ]
+            },
+            "gallery": {
+              "eyebrow_icon": "GallerySparkle",
+              "heading_prefix": "Project",
+              "heading_highlight": "Gallery",
+              "close_aria_label": "Close preview modal",
+              "prev_aria_label": "Previous gallery picture",
+              "next_aria_label": "Next gallery picture",
+              "images": [
+                {
+                  "id": "gal-1",
+                  "src": "/images/gallery/gallery-1.webp",
+                  "alt": "Modern corporate glass headquarters exterior at golden hour",
+                  "category": "Commercial"
+                },
+                {
+                  "id": "gal-2",
+                  "src": "/images/gallery/gallery-2.webp",
+                  "alt": "Bespoke contemporary residential mansion with warm illumination",
+                  "category": "Residential"
+                },
+                {
+                  "id": "gal-3",
+                  "src": "/images/gallery/gallery-3.webp",
+                  "alt": "Heavy duty tower crane at high-rise construction concrete site",
+                  "category": "Infrastructure"
+                },
+                {
+                  "id": "gal-4",
+                  "src": "/images/gallery/gallery-4.webp",
+                  "alt": "High-capacity automated fulfillment center and logistics warehouse",
+                  "category": "Industrial"
+                },
+                {
+                  "id": "gal-5",
+                  "src": "/images/gallery/gallery-5.webp",
+                  "alt": "Sustainable multi-unit residential apartment development",
+                  "category": "Urban Living"
+                }
+              ]
+            },
+            "cta": {
+              "headline_line1": "Ready to Start",
+              "headline_prefix": "Your",
+              "headline_highlight": "Next Project?",
+              "button_text": "Contact Us",
+              "button_link": "#contact",
+              "background_image": "/images/cta/cta-building.webp",
+              "background_alt": "Modern illuminated corporate architecture headquarters campus at twilight"
+            },
+            "testimonials": {
+              "eyebrow": "OUR TESTIMONIALS",
+              "heading_prefix": "What Our",
+              "heading_highlight": "Clients Say",
+              "subtitle": "Trusted by homeowners, businesses, and industries for quality construction and reliable project delivery.",
+              "prev_aria_label": "Previous review",
+              "next_aria_label": "Next review",
+              "items": [
+                {
+                  "id": "rev-1",
+                  "quote": "A reliable and experienced construction company. They understood our requirements perfectly and delivered a modern, high-quality space beyond our expectations.",
+                  "author_name": "Priya Sharma",
+                  "role": "Business Owner",
+                  "avatar": "/images/testimonials/priya-sharma.webp",
+                  "avatar_alt": "Portrait of Priya Sharma, business owner",
+                  "rating": 5
+                },
+                {
+                  "id": "rev-2",
+                  "quote": "ArchVanta delivered our flagship corporate headquarters ahead of schedule and with uncompromising attention to structural detail. Exceptional engineering standards!",
+                  "author_name": "Vikram Malhotra",
+                  "role": "Real Estate Developer",
+                  "avatar": "/images/testimonials/vikram-malhotra.webp",
+                  "avatar_alt": "Portrait of Vikram Malhotra, real estate developer",
+                  "rating": 5
+                }
+              ]
+            },
+            "faq": {
+              "eyebrow": "FAQ",
+              "heading_prefix": "Frequently Asked",
+              "heading_highlight": "Questions",
+              "subtitle": "Find clear answers to common questions about our construction process, project timelines, and quality guarantees.",
+              "badge_years": "25+",
+              "badge_text": "YEARS OF CONSTRUCTION EXCELLENCE",
+              "engineer_image": "/images/faq/faq-engineer.webp",
+              "engineer_image_alt": "Lead construction manager in safety helmet and reflective vest on building site",
+              "items": [
+                {
+                  "id": "faq-1",
+                  "question": "Where are your offices located?",
+                  "answer": "Our headquarters are based at 123 Education Lane, New York, NY 10001, with regional project site management offices operating across major metropolitan hubs."
+                },
+                {
+                  "id": "faq-2",
+                  "question": "Do you provide free consultation?",
+                  "answer": "Yes, we provide complimentary preliminary engineering feasibility studies, initial site evaluations, and estimated cost modeling for qualified commercial and residential ventures."
+                },
+                {
+                  "id": "faq-3",
+                  "question": "What types of construction projects do you handle?",
+                  "answer": "ArchVanta specializes in commercial office towers, industrial factories, high-density residential apartments, institutional schools, and luxury custom villas."
+                },
+                {
+                  "id": "faq-4",
+                  "question": "How long does a typical project take?",
+                  "answer": "Timelines depend on square footage and zoning complexities. Standard luxury residences average 10–14 months, while mid-to-high rise commercial developments range between 18–26 months under strict milestone deadlines."
+                },
+                {
+                  "id": "faq-5",
+                  "question": "Do you offer post-construction support?",
+                  "answer": "Yes, every ArchVanta handover includes a comprehensive 10-year structural warranty, complete mechanical-electrical-plumbing (MEP) schematics, and dedicated ongoing facility maintenance support."
+                }
+              ]
+            },
+            "contact": {
+              "eyebrow": "GET IN TOUCH",
+              "heading_prefix": "Request A Free",
+              "heading_highlight": "Project Consultation",
+              "description": "Have an upcoming architectural or construction project? Reach out to our senior engineering team for technical feasibility, architectural design concepts, and transparent budget estimates.",
+              "form": {
+                "card_title": "Project Enquiry Form",
+                "card_subtitle": "Share your requirements to receive a detailed feasibility & cost estimate",
+                "confidential_badge": "100% Confidential",
+                "success_title": "Enquiry Submitted Successfully",
+                "reset_button_text": "Submit Another Enquiry",
+                "name_label": "Your Name",
+                "name_placeholder": "e.g. Alexander Wright",
+                "email_label": "Email Address",
+                "email_placeholder": "e.g. alexander@company.com",
+                "phone_label": "Phone Number",
+                "phone_placeholder": "e.g. +1 (555) 234-5678",
+                "service_label": "Project Type",
+                "service_placeholder": "Select Project Category",
+                "service_options": [
+                  "Commercial Office Building",
+                  "Luxury Residential Villa",
+                  "Industrial Warehouse & Factory",
+                  "High-Rise Apartment Complex",
+                  "House Renovation & Architecture",
+                  "Building Planning & Engineering"
+                ],
+                "message_label": "Project Scope & Details",
+                "message_placeholder": "Briefly describe your site location, estimated square footage, timeline, and vision...",
+                "submit_text": "Send Enquiry Now",
+                "submitting_text": "Submitting Enquiry...",
+                "success_message": "Thank you! Your enquiry has been received. Our principal architect will contact you within 24 hours."
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
