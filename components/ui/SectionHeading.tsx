@@ -20,7 +20,7 @@ export default function SectionHeading({
   const isCenter = align === 'center';
 
   return (
-    <div className={isCenter ? 'mx-auto max-w-2xl text-center' : 'text-left'}>
+    <div className={isCenter ? 'mx-auto max-w-4xl text-center' : 'text-left'}>
       {/* Eyebrow with hairline rules */}
       <div
         className={`mb-2.5 flex items-center gap-3 ${
@@ -48,7 +48,7 @@ export default function SectionHeading({
 
       {/* Dual Tone Main Heading */}
       <h2
-        className={`font-sans text-3xl font-extrabold tracking-tight sm:text-4xl lg:text-[42px] lg:leading-[1.15] ${
+        className={`font-sans text-[26px] xs:text-3xl sm:text-4xl lg:text-[40px] xl:text-[42px] font-extrabold tracking-tight lg:leading-[1.15] sm:whitespace-nowrap ${
           dark ? 'text-white' : 'text-[#0D1F38]'
         }`}
       >
@@ -59,7 +59,7 @@ export default function SectionHeading({
       {/* Subtitle */}
       {subtitle && (
         <p
-          className={`mt-3 text-xs leading-relaxed sm:text-[14px] ${
+          className={`mx-auto mt-3 max-w-2xl text-xs leading-relaxed sm:text-[14px] ${
             dark ? 'text-slate-300' : 'text-[#5A6E85]'
           }`}
         >

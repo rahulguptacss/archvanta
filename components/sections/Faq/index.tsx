@@ -16,7 +16,7 @@ export default function Faq({ data }: { data: FaqSectionData }) {
   return (
     <section
       id="faq"
-      className="relative overflow-hidden bg-white pt-4 pb-14 sm:pt-6 sm:pb-16 lg:pt-6 lg:pb-20"
+      className="relative overflow-hidden bg-white pt-12 pb-14 sm:pt-16 sm:pb-16 lg:pt-20 lg:pb-20"
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Header matching screenshot: Flanked Gold Lines + Centered Heading & Subtitle */}
